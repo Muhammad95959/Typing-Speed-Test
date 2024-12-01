@@ -4,17 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Typing-Speed-Test</title>
+    <link href="fonts/fontAweosome/css/all.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <script src="main.js" defer></script>
   </head>
   <body>
-    <div class="background"></div>
+    <div class="overlay"><span>Loading The Data ...</span></div>
+    <div class="header">
+      <div class="container">
+        <p>Typing Speed Test</p>
+        <div>
+          <ul>
+            <li><i class="fa-solid fa-arrows-rotate replay"></i></li>
+            <li><i class="fa-solid fa-forward refetch"></i></li>
+            <li><i class="fa-regular fa-keyboard show-typing-page"></i></li>
+            <li><i class="fa-solid fa-square-poll-vertical show-results-page"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="paragraph"></div>
       <div class="row">
-        <p class="speed"></p>
-        <p class="accuracy"></p>
+        <p class="speed">00</p>
+        <p class="accuracy">00</p>
       </div>
     </div>
+    <div class="notifications"></div>
   </body>
 </html>

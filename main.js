@@ -1,46 +1,84 @@
-//TODO: calc the actual accuracy
-//TODO: add "press any key to start"
-//TODO: add results page
+//TODO: add results card
 //TODO: add fetch error handling
+const overlay = document.querySelector(".overlay");
+const header = document.querySelector(".header");
 const paragraph = document.querySelector(".paragraph");
 const speed = document.querySelector(".speed");
 const accuracy = document.querySelector(".accuracy");
-const typedText = [];
+const replayBtn = document.querySelector("ul i.replay");
+const refetchBtn = document.querySelector("ul i.refetch");
+const showTypingPageBtn = document.querySelector("ul i.show-typing-page");
+const showResultsPageBtn = document.querySelector("ul i.show-results-page");
+let typedText = [];
 let quoteContent;
 let started = false;
 let startTime = 0;
 let checkingInterval;
 let right = 0;
 let wrong = 0;
+let typedWrongArr;
+let realAccuracy;
 
 const retrieved = fetch("https://api.quotable.io/random?minLength=200&maxLength=500")
-// const retrieved = fetch("https://api.quotable.io/random?maxLength=20")
+  // const retrieved = fetch("https://api.quotable.io/random?maxLength=20")
   .then((val) => val.json())
   .then((val) => {
-    quoteContent = val.content.trim();
+    quoteContent = val.content.trim().replace("—", "-");
     for (let i = 0; i < quoteContent.length; i++) {
       const span = document.createElement("span");
       span.textContent = quoteContent[i];
       paragraph.appendChild(span);
     }
-    window.addEventListener("keypress", keyHandler);
-    window.addEventListener("keydown", backspaceHandler);
-    checkingInterval = setInterval(checkSpeedAndAccuracy, 500);
+    overlay.firstChild.style.opacity = 0;
+    overlay.style.zIndex = "-1";
+    overlay.style.backgroundColor = "#24273a66";
+    setTimeout(function () {
+      header.style.transition = "opacity 0.6s";
+      header.style.opacity = 1;
+      paragraph.style.transition = "opacity 0.6s";
+      paragraph.style.opacity = 1;
+      window.addEventListener("keypress", keyHandler);
+      window.addEventListener("keydown", backAndCapsHandler);
+      checkingInterval = setInterval(checkSpeedAndAccuracy, 500);
+    }, 300);
   });
+
+replayBtn.addEventListener("click", function () {
+  for (let i = 0; i < typedText.length; i++) {
+    const span = document.querySelector(`.paragraph span:nth-child(${i + 1})`);
+    span.classList = "";
+  }
+  right = 0;
+  wrong = 0;
+  typedText = [];
+  typedWrongArr = new Array(quoteContent.length);
+  started = false;
+  speed.style.opacity = 0;
+  accuracy.style.opacity = 0;
+});
+
+refetchBtn.addEventListener("click", function () {
+  window.location.reload();
+});
+
+showTypingPageBtn.addEventListener("click", () => notify("Unimplemented yet."));
+showResultsPageBtn.addEventListener("click", () => notify("Unimplemented yet."));
 
 function keyHandler(ev) {
   if (!started) {
     started = true;
+    speed.style.transition = "opacity 0.5s";
+    speed.style.opacity = 1;
+    accuracy.style.transition = "opacity 0.5s";
+    accuracy.style.opacity = 1;
+    typedWrongArr = new Array(quoteContent.length);
     startTime = Date.now();
-    speed.style.transition = "visibility 0.3s";
-    speed.style.visibility = "visible";
-    accuracy.style.transition = "visibility 0.3s";
-    accuracy.style.visibility = "visible";
   }
   type(ev.key);
 }
 
-function backspaceHandler(ev) {
+function backAndCapsHandler(ev) {
+  if (!started && ev.getModifierState("CapsLock")) notify("You have Caps Lock enabled");
   if (ev.key === "Backspace") untype();
 }
 
@@ -64,12 +102,17 @@ function type(key) {
     } else {
       span.classList.add("wrong");
       wrong++;
+      typedWrongArr[typedLen] = 1;
     }
+    console.log();
   }
   if (typedLen + 1 >= quoteContent.length) {
     window.removeEventListener("keypress", keyHandler);
-    window.removeEventListener("keydown", backspaceHandler);
+    window.removeEventListener("keydown", backAndCapsHandler);
     clearInterval(checkingInterval);
+    const typedWrongLen = typedWrongArr.filter((val) => val === 1).length;
+    realAccuracy = Math.round(((quoteContent.length - typedWrongLen) / quoteContent.length) * 100);
+    console.log(`${realAccuracy}%`);
   }
 }
 
@@ -81,5 +124,23 @@ function untype() {
     if (span.classList.contains("right")) right--;
     else if (span.classList.contains("wrong")) wrong--;
     span.classList = "";
+  }
+}
+
+function notify(message) {
+  const notifications = document.querySelector(".notifications");
+  const notification = document.createElement("div");
+  notification.classList.add("notification");
+  notifications.prepend(notification);
+  const closeBtn = document.createElement("a");
+  closeBtn.classList.add("close");
+  closeBtn.textContent = "x";
+  const messageText = document.createTextNode(message);
+  notification.appendChild(closeBtn);
+  notification.appendChild(messageText);
+  closeBtn.addEventListener("click", hideNotification);
+  setTimeout(hideNotification, 5000);
+  function hideNotification() {
+    notification.remove();
   }
 }
