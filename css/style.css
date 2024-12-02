@@ -32,10 +32,23 @@
   --mantle: #1e2030;
   --crust: #181926;
   --opaqueBase: #24273acc;
+  --accuracy: 100%;
+  --real-accuracy: 100%;
+  --speed: 100%;
 }
 @font-face {
   font-family: "JetBrainsMono";
   src: url(../fonts/JetBrainsMono-VariableFont_wght.ttf);
+}
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--base);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 5px;
 }
 
 body {
@@ -49,7 +62,7 @@ body {
   background-position: 50% 50%;
   position: absolute;
   > .overlay {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     background-color: #24273acc;
@@ -68,6 +81,7 @@ body {
       user-select: none;
     }
   }
+
   .header {
     opacity: 0;
     background-color: var(--mantle);
@@ -112,6 +126,7 @@ body {
       }
     }
   }
+
   > .container {
     margin: auto;
     width: 840px;
@@ -183,6 +198,123 @@ body {
       }
     }
   }
+
+  .close {
+    user-select: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--red);
+    border-radius: 50%;
+    color: var(--mantle);
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    opacity: 0;
+  }
+
+  .results-card {
+    width: 1000px;
+    min-height: 600px;
+    background-color: var(--mantle);
+    color: var(--text);
+    font-weight: 500;
+    box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    visibility: hidden;
+    transition: opacity 1s;
+    opacity: 0;
+    @media (max-width: 1000px) {
+      width: calc(100% - 30px);
+      padding: 40px 15px;
+      gap: 40px;
+      align-content: center;
+    }
+    .close {
+      top: 15px;
+      right: 15px;
+    }
+    &:hover .close {
+      opacity: 1;
+    }
+    > div {
+      &.accuracy .circle {
+        background: conic-gradient(var(--teal) var(--accuracy), var(--mantle) 0%);
+        &::before {
+          content: attr(data-result) "%";
+        }
+      }
+      &.real-accuracy .circle {
+        background: conic-gradient(var(--blue) var(--real-accuracy), var(--mantle) 0%);
+        &::before {
+          content: attr(data-result) "%";
+        }
+      }
+      &.speed .circle {
+        background: conic-gradient(var(--mauve) var(--speed), var(--mantle) 0%);
+        &::before {
+          content: attr(data-result);
+        }
+      }
+      .circle {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: relative;
+        background-color: var(--green);
+        &::before {
+          width: 180px;
+          height: 180px;
+          background-color: var(--mantle);
+          border-radius: 50%;
+          display: grid;
+          place-items: center;
+          font-weight: bold;
+          font-size: 40px;
+        }
+        @media (max-width: 500px) {
+          width: 140px;
+          height: 140px;
+          &::before {
+            width: 120px;
+            height: 120px;
+            font-size: 28px;
+          }
+        }
+      }
+      .title {
+        text-align: center;
+        font-size: 22px;
+        margin-top: 20px;
+        @media (max-width: 500px) {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
   .notifications {
     display: grid;
     gap: 20px;
@@ -199,29 +331,7 @@ body {
       font-weight: 500;
       box-shadow: 1px 2px 10px 3px rgba(0, 0, 0, 0.4);
       padding: 20px;
-      padding-right: 30px;
       transition: opacity 0.6s;
-      .close {
-        user-select: none;
-        position: absolute;
-        top: 8px;
-        right: 8px;
-        background-color: var(--red);
-        border-radius: 50%;
-        color: var(--mantle);
-        width: 18px;
-        height: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: opacity 0.3s;
-        font-size: 14px;
-        font-weight: 900;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        opacity: 0;
-      }
       &:hover .close {
         opacity: 1;
       }

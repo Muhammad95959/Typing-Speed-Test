@@ -1,4 +1,3 @@
-//TODO: add results card
 //TODO: add fetch error handling
 const overlay = document.querySelector(".overlay");
 const header = document.querySelector(".header");
@@ -9,6 +8,10 @@ const replayBtn = document.querySelector("ul i.replay");
 const refetchBtn = document.querySelector("ul i.refetch");
 const showTypingPageBtn = document.querySelector("ul i.show-typing-page");
 const showResultsPageBtn = document.querySelector("ul i.show-results-page");
+const resultsCard = document.querySelector(".results-card");
+const accuracyCircle = document.querySelector(".results-card .accuracy .circle");
+const realAccuracyCircle = document.querySelector(".results-card .real-accuracy .circle");
+const speedCircle = document.querySelector(".results-card .speed .circle");
 let typedText = [];
 let quoteContent;
 let started = false;
@@ -18,6 +21,9 @@ let right = 0;
 let wrong = 0;
 let typedWrongArr;
 let realAccuracy;
+let capsNotified = false;
+let wpm;
+let acc;
 
 const retrieved = fetch("https://api.quotable.io/random?minLength=200&maxLength=500")
   // const retrieved = fetch("https://api.quotable.io/random?maxLength=20")
@@ -78,15 +84,18 @@ function keyHandler(ev) {
 }
 
 function backAndCapsHandler(ev) {
-  if (!started && ev.getModifierState("CapsLock")) notify("You have Caps Lock enabled");
+  if (!capsNotified && ev.getModifierState("CapsLock")) {
+    capsNotified = true;
+    notify("You have Caps Lock enabled");
+  }
   if (ev.key === "Backspace") untype();
 }
 
 function checkSpeedAndAccuracy() {
   if (started) {
-    const wpm = Math.round(right / (5 * ((Date.now() - startTime) / 1000 / 60)));
+    wpm = Math.round(right / (5 * ((Date.now() - startTime) / 1000 / 60)));
     speed.innerHTML = `<span>${wpm}</span><span>WPM</span>`;
-    const acc = typedText.length > 0 ? Math.round((right / typedText.length) * 100) : 0;
+    acc = typedText.length > 0 ? Math.round((right / typedText.length) * 100) : 0;
     accuracy.textContent = `${acc}%`;
   }
 }
@@ -104,15 +113,12 @@ function type(key) {
       wrong++;
       typedWrongArr[typedLen] = 1;
     }
-    console.log();
   }
   if (typedLen + 1 >= quoteContent.length) {
     window.removeEventListener("keypress", keyHandler);
     window.removeEventListener("keydown", backAndCapsHandler);
     clearInterval(checkingInterval);
-    const typedWrongLen = typedWrongArr.filter((val) => val === 1).length;
-    realAccuracy = Math.round(((quoteContent.length - typedWrongLen) / quoteContent.length) * 100);
-    console.log(`${realAccuracy}%`);
+    showResultsCard();
   }
 }
 
@@ -124,6 +130,26 @@ function untype() {
     if (span.classList.contains("right")) right--;
     else if (span.classList.contains("wrong")) wrong--;
     span.classList = "";
+  }
+}
+
+function showResultsCard() {
+  const typedWrongLen = typedWrongArr.filter((val) => val === 1).length;
+  realAccuracy = Math.round(((quoteContent.length - typedWrongLen) / quoteContent.length) * 100);
+  accuracyCircle.dataset.result = acc;
+  document.documentElement.style.setProperty("--accuracy", `${acc}%`);
+  realAccuracyCircle.dataset.result = realAccuracy;
+  document.documentElement.style.setProperty("--real-accuracy", `${realAccuracy}%`);
+  speedCircle.dataset.result = wpm;
+  const speedPercentage = wpm >= 75 ? 100 : Math.round((wpm / 75) * 100);
+  document.documentElement.style.setProperty("--speed", `${speedPercentage}%`);
+  resultsCard.style.visibility = "visible";
+  setTimeout(() => (resultsCard.style.opacity = 1), 500);
+  const closeBtn = document.querySelector(".results-card .close");
+  closeBtn.addEventListener("click", hideResultsCard);
+  function hideResultsCard() {
+    resultsCard.style.opacity = 0;
+    setTimeout(() => (resultsCard.style.visibility = "hidden"), 1000);
   }
 }
 
@@ -139,7 +165,7 @@ function notify(message) {
   notification.appendChild(closeBtn);
   notification.appendChild(messageText);
   closeBtn.addEventListener("click", hideNotification);
-  setTimeout(hideNotification, 5000);
+  setTimeout(hideNotification, 10000);
   function hideNotification() {
     notification.remove();
   }
