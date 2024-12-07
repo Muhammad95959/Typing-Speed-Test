@@ -1,0 +1,1002 @@
+[
+  {
+    "_id": "ijc0sPlYFd",
+    "author": "Thomas Edison",
+    "content": "The doctor of the future will give no medicine, but will interest her or his patients in the care of the human frame, in a proper diet, and in the cause and prevention of disease.",
+    "tags": ["Health", "Wellness"],
+    "authorSlug": "thomas-edison",
+    "length": 179,
+    "dateAdded": "2023-04-14",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "aQSSYBocy9",
+    "author": "Albert Einstein",
+    "content": "Every day I remind myself that my inner and outer life are based on the labors of other men, living and dead, and that I must exert myself in order to give in the same measure as I have received and am still receiving.",
+    "tags": ["History", "Science"],
+    "authorSlug": "albert-einstein",
+    "length": 218,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "wFrlCzqagir",
+    "author": "Albert Einstein",
+    "content": "The ideals which have lighted my way, and time after time have given me new courage to face life cheerfully, have been Kindness, Beauty, and Truth. The trite subjects of human efforts, possessions, outward success, luxury have always seemed to me contemptible.",
+    "tags": ["Success"],
+    "authorSlug": "albert-einstein",
+    "length": 260,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Y1Zo7z8BPJ",
+    "author": "Albert Einstein",
+    "content": "My religion consists of a humble admiration of the illimitable superior spirit who reveals himself in the slight details we are able to perceive with our frail and feeble mind.",
+    "tags": ["Religion"],
+    "authorSlug": "albert-einstein",
+    "length": 176,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "EG9yQpz6Ku",
+    "author": "Albert Einstein",
+    "content": "Few people are capable of expressing with equanimity opinions which differ from the prejudices of their social environment. Most people are even incapable of forming such opinions.",
+    "tags": ["Society"],
+    "authorSlug": "albert-einstein",
+    "length": 180,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "b437W9Z_RN_",
+    "author": "Albert Einstein",
+    "content": "Reading, after a certain age, diverts the mind too much from its creative pursuits. Any man who reads too much and uses his own brain too little falls into lazy habits of thinking.",
+    "tags": ["Education"],
+    "authorSlug": "albert-einstein",
+    "length": 180,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "fC5Jr2NsYm",
+    "author": "Albert Einstein",
+    "content": "Gravitation cannot be held responsible for people falling in love. How on earth can you explain in terms of chemistry and physics so important a biological phenomenon as first love? Put your hand on a stove for a minute and it seems like an hour. Sit with that special girl for an hour and it seems like a minute. That's relativity.",
+    "tags": ["Love", "Science"],
+    "authorSlug": "albert-einstein",
+    "length": 332,
+    "dateAdded": "2023-04-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Y93446BoHU",
+    "author": "Warren Buffett",
+    "content": "I won't close down a business of subnormal profitability merely to add a fraction of a point to our corporate returns. I also feel it inappropriate for even an exceptionally profitable company to fund an operation once it appears to have unending losses in prospect. Adam Smith would disagree with my first proposition and Karl Marx would disagree with my second; the middle ground is the only position that leaves me comfortable.",
+    "tags": [],
+    "authorSlug": "warren-buffett",
+    "length": 430,
+    "dateAdded": "2023-04-03",
+    "dateModified": "2023-04-03"
+  },
+  {
+    "_id": "ESJFchb_5h4",
+    "author": "The Buddha",
+    "content": "The calmed say that what is well-spoken is best; second, that one should say what is right, not unrighteous; third, what's pleasing, not displeasing; fourth, what is true, not false.",
+    "tags": ["Wisdom", "Truth"],
+    "authorSlug": "the-buddha",
+    "length": 182,
+    "dateAdded": "2023-03-30",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Zu5upLF-ANy",
+    "author": "The Buddha",
+    "content": "He who can curb his wrath as soon as it arises, as a timely antidote will check snake's venom that so quickly spreads, — such a monk gives up the here and the beyond, just as a serpent sheds its worn-out skin.",
+    "tags": ["Wisdom", "Self Help"],
+    "authorSlug": "the-buddha",
+    "length": 209,
+    "dateAdded": "2023-03-30",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "IiQQfTSSTyc",
+    "author": "Pauline Kael",
+    "content": "Where there is a will, there is a way. If there is a chance in a million that you can do something, anything, to keep what you want from ending, do it. Pry the door open or, if need be, wedge your foot in that door and keep it open.",
+    "tags": ["Motivational"],
+    "authorSlug": "pauline-kael",
+    "length": 232,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "l0LfTgApB3",
+    "author": "Babe Ruth",
+    "content": "The way a team plays as a whole determines its success. You may have the greatest bunch of individual stars in the world, but if they don't play together, the club won't be worth a dime.",
+    "tags": ["Sports", "Competition"],
+    "authorSlug": "babe-ruth",
+    "length": 186,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "JIk3cbQ8s",
+    "author": "Michael Jordan",
+    "content": "I've missed more than 9000 shots in my career. I've lost almost 300 games. 26 times, I've been trusted to take the game winning shot and missed. I've failed over and over and over again in my life. And that is why I succeed.",
+    "tags": ["Sports", "Competition", "Famous Quotes"],
+    "authorSlug": "michael-jordan",
+    "length": 224,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "u88FH0TrZCH",
+    "author": "Thomas Jefferson",
+    "content": "I hope we shall crush in its birth the aristocracy of our monied corporations which dare already to challenge our government to a trial by strength, and bid defiance to the laws of our country.",
+    "tags": ["Business"],
+    "authorSlug": "thomas-jefferson",
+    "length": 193,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "wNd1PnDiIN",
+    "author": "Bob Feller",
+    "content": "Every day is a new opportunity. You can build on yesterday's success or put its failures behind and start over again. That's the way life is, with a new game every day, and that's the way baseball is.",
+    "tags": ["Sports", "Competition"],
+    "authorSlug": "bob-feller",
+    "length": 200,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "vZ-5DQPCJag",
+    "author": "George Orwell",
+    "content": "Serious sport has nothing to do with fair play. It is bound up with hatred, jealousy, boastfulness, disregard of all rules and sadistic pleasure in witnessing violence. In other words, it is war minus the shooting.",
+    "tags": ["Sports"],
+    "authorSlug": "george-orwell",
+    "length": 214,
+    "dateAdded": "2022-07-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "nZtnCW3_6S",
+    "author": "Abraham Lincoln",
+    "content": "I am not bound to win, but I am bound to be true. I am not bound to succeed, but I am bound to live by the light that I have. I must stand with anybody that stands right, and stand with him while he is right, and part with him when he goes wrong.",
+    "tags": ["Inspirational", "History", "Truth"],
+    "authorSlug": "abraham-lincoln",
+    "length": 246,
+    "dateAdded": "2022-03-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "lJ60rOYWci",
+    "author": "Neil Gaiman",
+    "content": "The one thing that you have that nobody else has is you. Your voice, your mind, your story, your vision. So write and draw and build and play and dance and live as only you can.",
+    "tags": ["Famous Quotes", "Inspirational"],
+    "authorSlug": "neil-gaiman",
+    "length": 177,
+    "dateAdded": "2021-06-18",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "qXO3CA1R5kmS",
+    "content": "Take up one idea. Make that one idea your life - think of it, dream of it, live on that idea. Let the brain, muscles, nerves, every part of your body, be full of that idea, and just leave every other idea alone. This is the way to success.",
+    "author": "Swami Vivekananda",
+    "tags": ["Success"],
+    "authorSlug": "swami-vivekananda",
+    "length": 239,
+    "dateAdded": "2021-05-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "zbvj3SIQud",
+    "content": "I think people who are creative are the luckiest people on earth. I know that there are no shortcuts, but you must keep your faith in something Greater than you and keep doing what you love. Do what you love, and you will find the way to get it out to the world.",
+    "author": "Judy Collins",
+    "tags": ["Inspirational"],
+    "authorSlug": "judy-collins",
+    "length": 262,
+    "dateAdded": "2021-05-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Avwppw9hga",
+    "content": "We live in a society bloated with data yet starved for wisdom. We're connected 24/7, yet anxiety, fear, depression and loneliness are at an all-time high. We must course-correct.",
+    "author": "Elizabeth Kapu'uwailani Lindsey",
+    "tags": ["Wisdom"],
+    "authorSlug": "elizabeth-kapuuwailani-lindsey",
+    "length": 178,
+    "dateAdded": "2021-04-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "L63tZjtmyQX6",
+    "content": "I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.",
+    "author": "Marilyn Monroe",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "marilyn-monroe",
+    "length": 202,
+    "dateAdded": "2021-04-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Z6jqqs7ksB",
+    "content": "There is a magnet in your heart that will attract true friends. That magnet is unselfishness, thinking of others first; when you learn to live for others, they will live for you.",
+    "author": "Paramahansa Yogananda",
+    "tags": ["Friendship"],
+    "authorSlug": "paramahansa-yogananda",
+    "length": 178,
+    "dateAdded": "2021-04-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "W_NZxqBSuJ",
+    "content": "The friend who can be silent with us in a moment of despair or confusion, who can stay with us in an hour of grief and bereavement, who can tolerate not knowing... not healing, not curing... that is a friend who cares.",
+    "author": "Henri Nouwen",
+    "tags": ["Friendship"],
+    "authorSlug": "henri-nouwen",
+    "length": 218,
+    "dateAdded": "2021-04-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "ykXP-CFk_G",
+    "content": "If you're trying to achieve, there will be roadblocks. I've had them; everybody has had them. But obstacles don't have to stop you. If you run into a wall, don't turn around and give up. Figure out how to climb it, go through it, or work around it.",
+    "author": "Michael Jordan",
+    "tags": ["Wisdom", "Inspirational"],
+    "authorSlug": "michael-jordan",
+    "length": 248,
+    "dateAdded": "2021-03-28",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Q2PbsPMcCJ",
+    "content": "What makes Superman a hero is not that he has power, but that he has the wisdom and the maturity to use the power wisely. From an acting point of view, that's how I approached the part.",
+    "author": "Christopher Reeve",
+    "tags": ["Wisdom"],
+    "authorSlug": "christopher-reeve",
+    "length": 185,
+    "dateAdded": "2021-03-28",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "J2QOuZPIiG",
+    "content": "You are a product of your environment. So choose the environment that will best develop you toward your objective. Analyze your life in terms of its environment. Are the things around you helping you toward success - or are they holding you back?",
+    "author": "W. Clement Stone",
+    "tags": ["Wisdom"],
+    "authorSlug": "w-clement-stone",
+    "length": 246,
+    "dateAdded": "2021-03-28",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "PdcCF7bmZfA",
+    "content": "The man who makes everything that leads to happiness depends upon himself, and not upon other men, has adopted the very best plan for living happily. This is the man of moderation, the man of manly character and of wisdom.",
+    "author": "Plato",
+    "tags": ["Wisdom"],
+    "authorSlug": "plato",
+    "length": 222,
+    "dateAdded": "2021-03-28",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "01pIIRUUwN",
+    "content": "Knowledge comes, but wisdom lingers. It may not be difficult to store up in the mind a vast quantity of facts within a comparatively short time, but the ability to form judgments requires the severe discipline of hard work and the tempering heat of experience and maturity.",
+    "author": "Calvin Coolidge",
+    "tags": ["Wisdom"],
+    "authorSlug": "calvin-coolidge",
+    "length": 273,
+    "dateAdded": "2021-03-28",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "idKyHYiBkP",
+    "content": "I love wisdom. And you can never be great at anything unless you love it. Not be in love with it, but love the thing, admire the thing. And it seems that if you love the thing, and you don't just want to possess it, it will find you.",
+    "author": "Maya Angelou",
+    "tags": ["Wisdom"],
+    "authorSlug": "maya-angelou",
+    "length": 233,
+    "dateAdded": "2021-03-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "FMZiiLHfCOc",
+    "content": "America's freedom of religion, and freedom from religion, offers every wisdom tradition an opportunity to address our soul-deep needs: Christianity, Judaism, Islam, Buddhism, Hinduism, secular humanism, agnosticism and atheism among others.",
+    "author": "Parker Palmer",
+    "tags": ["Wisdom", "Freedom"],
+    "authorSlug": "parker-palmer",
+    "length": 240,
+    "dateAdded": "2021-03-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "CD5Q8vuy9kSZ",
+    "content": "First comes thought; then organization of that thought, into ideas and plans; then transformation of those plans into reality. The beginning, as you will observe, is in your imagination.",
+    "author": "Napoleon Hill",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "napoleon-hill",
+    "length": 186,
+    "dateAdded": "2021-02-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "KsjEIA45Uf",
+    "content": "The problem with Google is you have 360 degrees of omnidirectional information on a linear basis, but the algorithms for irony and ambiguity are not there. And those are the algorithms of wisdom.",
+    "author": "William Hurt",
+    "tags": ["Wisdom", "Technology"],
+    "authorSlug": "william-hurt",
+    "length": 195,
+    "dateAdded": "2021-02-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "utsFFZkN6YU",
+    "content": "True wisdom is less presuming than folly. The wise man doubteth often, and changeth his mind; the fool is obstinate, and doubteth not; he knoweth all things but his own ignorance.",
+    "author": "Akhenaten",
+    "tags": ["Wisdom"],
+    "authorSlug": "akhenaten",
+    "length": 179,
+    "dateAdded": "2021-02-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "8bIHIEuQP5",
+    "content": "The fact is, with every friendship you make, and every bond of trust you establish, you are shaping the image of America projected to the rest of the world. That is so important. So when you study abroad, you're actually helping to make America stronger.",
+    "author": "Michelle Obama",
+    "tags": ["Friendship"],
+    "authorSlug": "michelle-obama",
+    "length": 254,
+    "dateAdded": "2021-01-19",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "QTf15XLSdB",
+    "content": "I think that we have a great opportunity to impart our wisdom and our knowledge and our experience to this younger generation. It may be different times, but experience transcends time, and wisdom transcends time.",
+    "author": "Victoria Osteen",
+    "tags": ["Wisdom"],
+    "authorSlug": "victoria-osteen",
+    "length": 213,
+    "dateAdded": "2021-01-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "lxVMQLtBP7",
+    "content": "First we thought the PC was a calculator. Then we found out how to turn numbers into letters with ASCII — and we thought it was a typewriter. Then we discovered graphics, and we thought it was a television. With the World Wide Web, we've realized it's a brochure.",
+    "author": "Douglas Adams",
+    "tags": ["Technology"],
+    "authorSlug": "douglas-adams",
+    "length": 263,
+    "dateAdded": "2021-01-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "l3-XvfRVtd",
+    "content": "Let my skin and sinews and bones dry up, together with all the flesh and blood of my body! I welcome it! But I will not move from this spot until I have attained the supreme and final wisdom.",
+    "author": "The Buddha",
+    "tags": ["Wisdom"],
+    "authorSlug": "the-buddha",
+    "length": 191,
+    "dateAdded": "2021-01-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "-93zOmlMP9",
+    "content": "The greatest obstacle to being heroic is the doubt whether one may not be going to prove oneself a fool; the truest heroism is to resist the doubt; and the profoundest wisdom, to know when it ought to be resisted, and when it be obeyed.",
+    "author": "Nathaniel Hawthorne",
+    "tags": ["Wisdom"],
+    "authorSlug": "nathaniel-hawthorne",
+    "length": 236,
+    "dateAdded": "2021-01-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "QfZTfPVGLvrA",
+    "content": "Conflict is the gadfly of thought. It stirs us to observation and memory. It instigates to invention. It shocks us out of sheeplike passivity, and sets us at noting and contriving.",
+    "author": "John Dewey",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "john-dewey",
+    "length": 180,
+    "dateAdded": "2020-12-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "IyF7fIZIc3XX",
+    "content": "The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.",
+    "author": "Amelia Earhart",
+    "tags": ["Life", "Wisdom"],
+    "authorSlug": "amelia-earhart",
+    "length": 238,
+    "dateAdded": "2020-12-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "LSyKvU3wm7W",
+    "content": "The word philosophy sounds high-minded, but it simply means the love of wisdom. If you love something, you don't just read about it; you hug it, you mess with it, you play with it, you argue with it.",
+    "author": "Hugh Jackman",
+    "tags": ["Wisdom"],
+    "authorSlug": "hugh-jackman",
+    "length": 199,
+    "dateAdded": "2020-12-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "jYRDxPs5oC",
+    "content": "The rule of friendship means there should be mutual sympathy between them, each supplying what the other lacks and trying to benefit the other, always using friendly and sincere words.",
+    "author": "Cicero",
+    "tags": ["Friendship"],
+    "authorSlug": "cicero",
+    "length": 184,
+    "dateAdded": "2020-12-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "wTqLeEaOhRhC",
+    "content": "Permanence, perseverance and persistence in spite of all obstacles, discouragements, and impossibilities: It is this, that in all things distinguishes the strong soul from the weak.",
+    "author": "Thomas Carlyle",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "thomas-carlyle",
+    "length": 181,
+    "dateAdded": "2020-12-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "gwQJOur7lHXd",
+    "content": "You should ignore that person’s impure behavior by way of speech and body, and focus on the fact that they get an openness and clarity of heart from time to time. That’s how to get rid of resentment for that person.",
+    "author": "The Buddha",
+    "tags": ["Wisdom"],
+    "authorSlug": "the-buddha",
+    "length": 215,
+    "dateAdded": "2020-12-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "z-6ZEcSbP",
+    "content": "There is a difference between happiness and wisdom: he that thinks himself the happiest man is really so; but he that thinks himself the wisest is generally the greatest fool.",
+    "author": "Francis Bacon",
+    "tags": ["Wisdom"],
+    "authorSlug": "francis-bacon",
+    "length": 175,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "wcJ4LawApuWM",
+    "content": "You cannot change anything in your life with intention alone, which can become a watered-down, occasional hope that you'll get to tomorrow. Intention without action is useless.",
+    "author": "Caroline Myss",
+    "tags": ["Change", "Wisdom"],
+    "authorSlug": "caroline-myss",
+    "length": 176,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "p2TBigKMHh",
+    "content": "In romance, we feel the need to zoom in and expound on our partner's foibles in intimate detail; in friendship, we tend to do the opposite, avoiding confrontation through fear, lethargy or both.",
+    "author": "Mariella Frostrup",
+    "tags": ["Friendship"],
+    "authorSlug": "mariella-frostrup",
+    "length": 194,
+    "dateAdded": "2020-12-06",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "69Ldsxcdm-",
+    "content": "Technology is nothing. What's important is that you have a faith in people, that they're basically good and smart, and if you give them tools, they'll do wonderful things with them.",
+    "author": "Steve Jobs",
+    "tags": ["Technology"],
+    "authorSlug": "steve-jobs",
+    "length": 181,
+    "dateAdded": "2020-11-13",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "2EDcr7j6zU",
+    "content": "Wisdom is the right use of knowledge. To know is not to be wise. Many men know a great deal and are all the greater fools for it. There is no fool so great a fool as a knowing fool. But to know how to use knowledge is to have wisdom.",
+    "author": "Charles Spurgeon",
+    "tags": ["Wisdom"],
+    "authorSlug": "charles-spurgeon",
+    "length": 233,
+    "dateAdded": "2020-10-29",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "EgCOqrOa1",
+    "content": "Learning is the beginning of wealth. Learning is the beginning of health. Learning is the beginning of spirituality. Searching and learning is where the miracle process all begins.",
+    "author": "Jim Rohn",
+    "tags": ["Inspirational"],
+    "authorSlug": "jim-rohn",
+    "length": 180,
+    "dateAdded": "2020-09-29",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "APsci40ULi",
+    "content": "Technology frightens me to death. It's designed by engineers to impress other engineers. And they always come with instruction booklets that are written by engineers for other engineers — which is why almost no technology ever works.",
+    "author": "John Cleese",
+    "tags": ["Technology"],
+    "authorSlug": "john-cleese",
+    "length": 233,
+    "dateAdded": "2020-09-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "KpV6OHS8Xn",
+    "content": "What sweetness is left in life, if you take away friendship? Robbing life of friendship is like robbing the world of the sun. A true friend is more to be esteemed than kinsfolk.",
+    "author": "Cicero",
+    "tags": ["Friendship"],
+    "authorSlug": "cicero",
+    "length": 177,
+    "dateAdded": "2020-09-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "aC9pFlPuapi",
+    "content": "If we are not given the chance to forget, we are also not given the chance to recover our memories, to alter them with time, perspective, and wisdom. Forgetting, we can be ourselves beyond what the past has told us we are; we can evolve. That is the possibility we want from the future.",
+    "author": "Caterina Fake",
+    "tags": ["Wisdom", "Future"],
+    "authorSlug": "caterina-fake",
+    "length": 286,
+    "dateAdded": "2020-08-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "tvXaBe-wkKU",
+    "content": "Sometimes being a friend means mastering the art of timing. There is a time for silence. A time to let go and allow people to hurl themselves into their own destiny. And a time to prepare to pick up the pieces when it's all over.",
+    "author": "Octavia E. Butler",
+    "tags": ["Friendship"],
+    "authorSlug": "octavia-e-butler",
+    "length": 229,
+    "dateAdded": "2020-07-10",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "RBidV2o5GA",
+    "content": "Beginning today, treat everyone you meet as if they were going to be dead by midnight. Extend to them all the care, kindness and understanding you can muster, and do it with no thought of any reward. Your life will never be the same again.",
+    "author": "Og Mandino",
+    "tags": ["Inspirational"],
+    "authorSlug": "og-mandino",
+    "length": 239,
+    "dateAdded": "2020-06-24",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "CF7uqSGvDt",
+    "content": "Know what's important and what isn't. Have the wisdom to know the right thing to do, the integrity to do it, the character to stand up to those who don't, and the courage to stop those who won't.",
+    "author": "Mark Goulston",
+    "tags": ["Wisdom"],
+    "authorSlug": "mark-goulston",
+    "length": 195,
+    "dateAdded": "2020-04-02",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "KziYFsZxdD",
+    "content": "True friendship multiplies the good in life and divides its evils. Strive to have friends, for life without friends is like life on a desert island... to find one real friend in a lifetime is good fortune; to keep him is a blessing.",
+    "author": "Baltasar Gracián",
+    "tags": ["Friendship"],
+    "authorSlug": "baltasar-gracian",
+    "length": 232,
+    "dateAdded": "2020-03-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "yA3NA7G_Mii8",
+    "content": "Do I speak at the right time, or not? Do I speak of facts, or not? Do I speak gently or harshly? Do I speak profitable words or not? Do I speak with a kindly heart, or inwardly malicious?",
+    "author": "The Buddha",
+    "tags": ["Wisdom"],
+    "authorSlug": "the-buddha",
+    "length": 187,
+    "dateAdded": "2020-03-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "qrCV1UcPA2",
+    "content": "It is one of the severest tests of friendship to tell your friend his faults. So to love a man that you cannot bear to see a stain upon him, and to speak painful truth through loving words, that is friendship.",
+    "author": "Henry Ward Beecher",
+    "tags": ["Friendship"],
+    "authorSlug": "henry-ward-beecher",
+    "length": 209,
+    "dateAdded": "2020-03-07",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "Hgj3O0h_R0",
+    "content": "Our shared values define us more than our differences. And acknowledging those shared values can see us through our challenges today if we have the wisdom to trust in them again.",
+    "author": "John McCain",
+    "tags": ["Wisdom"],
+    "authorSlug": "john-mc-cain",
+    "length": 178,
+    "dateAdded": "2020-03-01",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "I5zMVI_HGM",
+    "content": "Sometimes I am happy and sometimes not. I am, after all, a human being, you know. And I am glad that we are sometimes happy and sometimes not. You get your wisdom working by having different emotions.",
+    "author": "Yoko Ono",
+    "tags": ["Wisdom"],
+    "authorSlug": "yoko-ono",
+    "length": 200,
+    "dateAdded": "2020-02-22",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "8piblkbL7j",
+    "content": "Love is like a friendship caught on fire. In the beginning a flame, very pretty, often hot and fierce, but still only light and flickering. As love grows older, our hearts mature and our love becomes as coals, deep-burning and unquenchable.",
+    "author": "Bruce Lee",
+    "tags": ["Friendship"],
+    "authorSlug": "bruce-lee",
+    "length": 240,
+    "dateAdded": "2020-02-07",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "xDhw8-7y3p",
+    "content": "Do not wait; the time will never be 'just right.' Start where you stand, and work with whatever tools you may have at your command, and better tools will be found as you go along.",
+    "author": "George Herbert",
+    "tags": ["Inspirational"],
+    "authorSlug": "george-herbert",
+    "length": 179,
+    "dateAdded": "2020-01-31",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "7ca_FwfVHg",
+    "content": "There are three methods to gaining wisdom. The first is reflection, which is the highest. The second is limitation, which is the easiest. The third is experience, which is the bitterest.",
+    "author": "Confucius",
+    "tags": ["Wisdom"],
+    "authorSlug": "confucius",
+    "length": 186,
+    "dateAdded": "2020-01-26",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "97oN1n9-l",
+    "content": "Friendship is but another name for an alliance with the follies and the misfortunes of others. Our own share of miseries is sufficient: why enter then as volunteers into those of another?",
+    "author": "Thomas Jefferson",
+    "tags": ["Friendship"],
+    "authorSlug": "thomas-jefferson",
+    "length": 187,
+    "dateAdded": "2020-01-26",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "I6-sDc_nC",
+    "content": "Do the one thing you think you cannot do. Fail at it. Try again. Do better the second time. The only people who never tumble are those who never mount the high wire. This is your moment. Own it.",
+    "author": "Oprah Winfrey",
+    "tags": ["Inspirational"],
+    "authorSlug": "oprah-winfrey",
+    "length": 194,
+    "dateAdded": "2020-01-26",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "RFbQKIDffV",
+    "content": "I decided that it was not wisdom that enabled poets to write their poetry, but a kind of instinct or inspiration, such as you find in seers and prophets who deliver all their sublime messages without knowing in the least what they mean.",
+    "author": "Isocrates",
+    "tags": ["Wisdom"],
+    "authorSlug": "isocrates",
+    "length": 236,
+    "dateAdded": "2020-01-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "rROktmIDga",
+    "content": "And when the world is created, it is created in such a way that those eternal objects of God's loving wisdom become actualities - interacting with one another, relating to God in the finite realm.",
+    "author": "Rowan Williams",
+    "tags": ["Wisdom"],
+    "authorSlug": "rowan-williams",
+    "length": 196,
+    "dateAdded": "2019-12-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "bTpqZkd3K7",
+    "content": "Knowledge is going to make you stronger. Knowledge is going to let you control your life. Knowledge is going to give you the wisdom to teach their children. Knowledge is the thing that makes you smile in the face of disaster.",
+    "author": "Avery Brooks",
+    "tags": ["Wisdom"],
+    "authorSlug": "avery-brooks",
+    "length": 225,
+    "dateAdded": "2019-12-13",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "9P-7UiqTJx",
+    "content": "This is the whole point of technology. It creates an appetite for immortality on the one hand. It threatens universal extinction on the other. Technology is lust removed from nature.",
+    "author": "Don DeLillo",
+    "tags": ["Technology"],
+    "authorSlug": "don-de-lillo",
+    "length": 182,
+    "dateAdded": "2019-12-13",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "psDF8kzy2M",
+    "content": "You are not here merely to make a living. You are here in order to enable the world to live more amply, with greater vision, with a finer spirit of hope and achievement. You are here to enrich the world, and you impoverish yourself if you forget the errand.",
+    "author": "Woodrow Wilson",
+    "tags": ["Inspirational"],
+    "authorSlug": "woodrow-wilson",
+    "length": 257,
+    "dateAdded": "2019-11-16",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "SRODo46S0vo",
+    "content": "Experts on romance say for a happy marriage there has to be more than a passionate love. For a lasting union, they insist, there must be a genuine liking for each other. Which, in my book, is a good definition for friendship.",
+    "author": "Marilyn Monroe",
+    "tags": ["Friendship"],
+    "authorSlug": "marilyn-monroe",
+    "length": 225,
+    "dateAdded": "2019-10-12",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "JNs1fSaN1K",
+    "content": "Always keep your mind as bright and clear as the vast sky, the great ocean, and the highest peak, empty of all thoughts. Always keep your body filled with light and heat. Fill yourself with the power of wisdom and enlightenment.",
+    "author": "Morihei Ueshiba",
+    "tags": ["Wisdom"],
+    "authorSlug": "morihei-ueshiba",
+    "length": 228,
+    "dateAdded": "2019-09-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "BzHSpqSQOLJ",
+    "content": "I look forward to a great future for America - a future in which our country will match its military strength with our moral restraint, its wealth with our wisdom, its power with our purpose.",
+    "author": "John F. Kennedy",
+    "tags": ["Wisdom", "Politics"],
+    "authorSlug": "john-f-kennedy",
+    "length": 191,
+    "dateAdded": "2019-09-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "rT_P2fRlDvzW",
+    "content": "Let go of your attachment to being right, and suddenly your mind is more open. You're able to benefit from the unique viewpoints of others, without being crippled by your own judgement.",
+    "author": "Ralph Marston",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "ralph-marston",
+    "length": 185,
+    "dateAdded": "2019-09-19",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "xAhAKo-kqcD",
+    "content": "Democracy's premise rests on the notion that the collective wisdom of the majority will prove right more often than it's wrong; that given sufficient opportunity in the pursuit of happiness, your population will develop its talents, its intellect, its better judgment; that over time its capacity for discernment and self-correction will be enlarged.",
+    "author": "Ben Fountain",
+    "tags": ["Wisdom"],
+    "authorSlug": "ben-fountain",
+    "length": 350,
+    "dateAdded": "2019-09-19",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "gWSsNulTG-B",
+    "content": "Everyone in the world ought to do the things for which he is specially adapted. It is the part of wisdom to recognize what each one of us is best fitted for, and it is the part of education to perfect and utilize such predispositions. Because education can direct and aid nature but can never transform her.",
+    "author": "Maria Montessori",
+    "tags": ["Wisdom"],
+    "authorSlug": "maria-montessori",
+    "length": 307,
+    "dateAdded": "2019-09-13",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "iuLrw6KaMA",
+    "content": "As a technology, the book is like a hammer. That is to say, it is perfect: a tool ideally suited to its task. Hammers can be tweaked and varied but will never go obsolete. Even when builders pound nails by the thousand with pneumatic nail guns, every household needs a hammer.",
+    "author": "James Gleick",
+    "tags": ["Technology"],
+    "authorSlug": "james-gleick",
+    "length": 276,
+    "dateAdded": "2019-09-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "B76--SMLkD",
+    "content": "Excellence, then, is a state concerned with choice, lying in a mean, relative to us, this being determined by reason and in the way in which the man of practical wisdom would determine it.",
+    "author": "Aristotle",
+    "tags": ["Wisdom"],
+    "authorSlug": "aristotle",
+    "length": 188,
+    "dateAdded": "2019-08-16",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "TyDAoeE7hv",
+    "content": "I am not the first Buddha who came upon Earth, nor shall I be the last. In due time, another Buddha will arise in the world - a Holy One, a supremely enlightened One, endowed with wisdom in conduct, auspicious, knowing the universe, an incomparable leader of men, a master of angels and mortals.",
+    "author": "The Buddha",
+    "tags": ["Wisdom"],
+    "authorSlug": "the-buddha",
+    "length": 295,
+    "dateAdded": "2019-08-08",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "r2gCpEgG_LP",
+    "content": "And I love that even in the toughest moments, when we're all sweating it - when we're worried that the bill won't pass, and it seems like all is lost - Barack never lets himself get distracted by the chatter and the noise. Just like his grandmother, he just keeps getting up and moving forward... with patience and wisdom, and courage and grace.",
+    "author": "Michelle Obama",
+    "tags": ["Wisdom"],
+    "authorSlug": "michelle-obama",
+    "length": 345,
+    "dateAdded": "2019-08-03",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "-UwYfDF1M",
+    "content": "Be Impeccable with Your Word. Speak with integrity. Say only what you mean. Avoid using the word to speak against yourself or to gossip about others. Use the power of your word in the direction of truth and love.",
+    "author": "Don Miguel Ruiz",
+    "tags": ["Inspirational"],
+    "authorSlug": "don-miguel-ruiz",
+    "length": 212,
+    "dateAdded": "2019-07-23",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "fAyIjkZePx",
+    "content": "He who learns must suffer. And even in our sleep pain that cannot forget falls drop by drop upon the heart, and in our own despair, against our will, comes wisdom to us by the awful grace of God.",
+    "author": "Aeschylus",
+    "tags": ["Wisdom"],
+    "authorSlug": "aeschylus",
+    "length": 195,
+    "dateAdded": "2019-07-03",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "YnDQFxhLNx",
+    "content": "It is time to remember that old wisdom our soldiers will never forget: that whether we are black or brown or white, we all bleed the same red blood of patriots, we all enjoy the same glorious freedoms, and we all salute the same great American Flag.",
+    "author": "Donald Trump",
+    "tags": ["Wisdom"],
+    "authorSlug": "donald-trump",
+    "length": 249,
+    "dateAdded": "2019-04-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "IXdonGCMtzt_",
+    "content": "It is impossible to escape the impression that people commonly use false standards of measurement — that they seek power, success and wealth for themselves and admire them in others, and that they underestimate what is of true value in life.",
+    "author": "Sigmund Freud",
+    "tags": ["Success"],
+    "authorSlug": "sigmund-freud",
+    "length": 241,
+    "dateAdded": "2019-04-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "lXx16DT7z2",
+    "content": "In dwelling, live close to the ground. In thinking, keep to the simple. In conflict, be fair and generous. In governing, don't try to control. In work, do what you enjoy. In family life, be completely present.",
+    "author": "Laozi",
+    "tags": ["Wisdom"],
+    "authorSlug": "laozi",
+    "length": 209,
+    "dateAdded": "2019-04-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "kKF3mC3YhaoJ",
+    "content": "Although there may be tragedy in your life, there's always a possibility to triumph. It doesn't matter who you are, where you come from. The ability to triumph begins with you. Always.",
+    "author": "Oprah Winfrey",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "oprah-winfrey",
+    "length": 184,
+    "dateAdded": "2019-04-05",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "diwtkYifx15",
+    "content": "The older I get the more wisdom I find in the ancient rule of taking first things first. A process which often reduces the most complex human problem to a manageable proportion.",
+    "author": "Dwight D. Eisenhower",
+    "tags": ["Wisdom"],
+    "authorSlug": "dwight-d-eisenhower",
+    "length": 177,
+    "dateAdded": "2019-03-24",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "yW0uii1d-O",
+    "author": "Woody Allen",
+    "content": "Interestingly, according to modern astronomers, space is finite. This is a very comforting thought-- particularly for people who can never remember where they have left things.",
+    "tags": ["Film"],
+    "authorSlug": "woody-allen",
+    "length": 176,
+    "dateAdded": "2019-03-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "iXtSYIGVbm",
+    "content": "The strong bond of friendship is not always a balanced equation; friendship is not always about giving and taking in equal shares. Instead, friendship is grounded in a feeling that you know exactly who will be there for you when you need something, no matter what or when.",
+    "author": "Simon Sinek",
+    "tags": ["Friendship"],
+    "authorSlug": "simon-sinek",
+    "length": 272,
+    "dateAdded": "2019-03-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "NiF_deuEUrS",
+    "content": "People usually compare the computer to the head of the human being. I would say that hardware is the bone of the head, the skull. The semiconductor is the brain within the head. The software is the wisdom. And data is the knowledge.",
+    "author": "Masayoshi Son",
+    "tags": ["Wisdom"],
+    "authorSlug": "masayoshi-son",
+    "length": 232,
+    "dateAdded": "2019-03-15",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "CPwqIPvFW_",
+    "content": "I define friendship as a bond that transcends all barriers. When you are ready to expect anything and everything from friends, good, bad or ugly... that's what I call true friendship.",
+    "author": "Harbhajan Singh",
+    "tags": ["Friendship"],
+    "authorSlug": "harbhajan-singh",
+    "length": 183,
+    "dateAdded": "2019-02-21",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "lLNouGqzgu",
+    "content": "Be true to yourself, help others, make each day your masterpiece, make friendship a fine art, drink deeply from good books - especially the Bible, build a shelter against a rainy day, give thanks for your blessings and pray for guidance every day.",
+    "author": "John Wooden",
+    "tags": ["Friendship"],
+    "authorSlug": "john-wooden",
+    "length": 247,
+    "dateAdded": "2019-02-20",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "fgKMT62j8",
+    "content": "Consult not your fears but your hopes and your dreams. Think not about your frustrations, but about your unfulfilled potential. Concern yourself not with what you tried and failed in, but with what it is still possible for you to do.",
+    "author": "Pope John XXIII",
+    "tags": ["Inspirational"],
+    "authorSlug": "pope-john-xxiii",
+    "length": 233,
+    "dateAdded": "2019-02-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "yBn9DgK3vf",
+    "content": "A youth, when at home, should be filial and, abroad, respectful to his elders. He should be earnest and truthful. He should overflow in love to all and cultivate the friendship of the good. When he has time and opportunity, after the performance of these things, he should employ them in polite studies.",
+    "author": "Confucius",
+    "tags": ["Friendship"],
+    "authorSlug": "confucius",
+    "length": 303,
+    "dateAdded": "2019-02-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "prkksRcnG-",
+    "content": "You can only learn so much from books. You can only learn so much from education. Ultimately, it is the wisdom of God that will carry you through in the toughest situations of life.",
+    "author": "Ravi Zacharias",
+    "tags": ["Wisdom"],
+    "authorSlug": "ravi-zacharias",
+    "length": 181,
+    "dateAdded": "2019-02-17",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "MZW3t0KRxWNU",
+    "content": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, vision cleared, ambition inspired, and success achieved.",
+    "author": "Helen Keller",
+    "tags": ["Character"],
+    "authorSlug": "helen-keller",
+    "length": 182,
+    "dateAdded": "2019-02-11",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "i-MVVN2dXY8n",
+    "content": "To effectively communicate, we must realize that we are all different in the way we perceive the world and use this understanding as a guide to our communication with others.",
+    "author": "Tony Robbins",
+    "tags": ["Famous Quotes"],
+    "authorSlug": "tony-robbins",
+    "length": 174,
+    "dateAdded": "2021-02-27",
+    "dateModified": "2023-04-14"
+  },
+  {
+    "_id": "4zLW-um1544g",
+    "content": "Success in business requires training and discipline and hard work. But if you're not frightened by these things, the opportunities are just as great today as they ever were.",
+    "author": "David Rockefeller",
+    "tags": ["Success", "Business"],
+    "authorSlug": "david-rockefeller",
+    "length": 174,
+    "dateAdded": "2020-12-19",
+    "dateModified": "2023-04-14"
+  }
+]

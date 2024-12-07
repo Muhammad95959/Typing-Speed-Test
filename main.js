@@ -1,4 +1,3 @@
-//TODO: add fetch error handling
 const overlay = document.querySelector(".overlay");
 const header = document.querySelector(".header");
 const paragraph = document.querySelector(".paragraph");
@@ -15,7 +14,7 @@ const speedCircle = document.querySelector(".results-card .speed .circle");
 let typedText = [];
 let quoteContent;
 let started = false;
-let startTime = 0;
+let startTime;
 let checkingInterval;
 let right = 0;
 let wrong = 0;
@@ -25,11 +24,11 @@ let capsNotified = false;
 let wpm;
 let acc;
 
-const retrieved = fetch("https://api.quotable.io/random?minLength=200&maxLength=500")
-  // const retrieved = fetch("https://api.quotable.io/random?maxLength=20")
-  .then((val) => val.json())
-  .then((val) => {
-    quoteContent = val.content.trim().replace("—", "-");
+fetch("database/quotes.json")
+  .then((response) => response.json())
+  .then((quotes) => quotes[Math.floor(Math.random() * quotes.length)])
+  .then((quote) => {
+    quoteContent = quote.content.trim().replace("—", "-");
     for (let i = 0; i < quoteContent.length; i++) {
       const span = document.createElement("span");
       span.textContent = quoteContent[i];
@@ -47,6 +46,11 @@ const retrieved = fetch("https://api.quotable.io/random?minLength=200&maxLength=
       window.addEventListener("keydown", backAndCapsHandler);
       checkingInterval = setInterval(checkSpeedAndAccuracy, 500);
     }, 300);
+  })
+  .catch((e) => {
+    overlay.firstChild.style.color = "var(--red)";
+    overlay.firstChild.textContent = "Something Went Wrong \n¯\\_('')_/¯";
+    console.error("Failed to retrieve the data: ", e);
   });
 
 replayBtn.addEventListener("click", function () {
@@ -59,8 +63,10 @@ replayBtn.addEventListener("click", function () {
   typedText = [];
   typedWrongArr = new Array(quoteContent.length);
   started = false;
+  capsNotified = false;
   speed.style.opacity = 0;
   accuracy.style.opacity = 0;
+  hideResultsCard();
 });
 
 refetchBtn.addEventListener("click", function () {
@@ -147,10 +153,11 @@ function showResultsCard() {
   setTimeout(() => (resultsCard.style.opacity = 1), 500);
   const closeBtn = document.querySelector(".results-card .close");
   closeBtn.addEventListener("click", hideResultsCard);
-  function hideResultsCard() {
-    resultsCard.style.opacity = 0;
-    setTimeout(() => (resultsCard.style.visibility = "hidden"), 1000);
-  }
+}
+
+function hideResultsCard() {
+  resultsCard.style.opacity = 0;
+  setTimeout(() => (resultsCard.style.visibility = "hidden"), 1000);
 }
 
 function notify(message) {
