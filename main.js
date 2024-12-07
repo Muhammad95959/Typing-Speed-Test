@@ -28,7 +28,7 @@ fetch("database/quotes.json")
   .then((response) => response.json())
   .then((quotes) => quotes[Math.floor(Math.random() * quotes.length)])
   .then((quote) => {
-    quoteContent = quote.content.trim().replace("—", "-");
+    quoteContent = quote.content.trim();
     for (let i = 0; i < quoteContent.length; i++) {
       const span = document.createElement("span");
       span.textContent = quoteContent[i];
