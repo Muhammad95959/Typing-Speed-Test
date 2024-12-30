@@ -14,6 +14,7 @@ const speedCircle = document.querySelector(".results-card .speed .circle");
 let typedText = [];
 let quoteContent;
 let started = false;
+let finished = false;
 let startTime;
 let checkingInterval;
 let right = 0;
@@ -67,6 +68,12 @@ replayBtn.addEventListener("click", function () {
   speed.style.opacity = 0;
   accuracy.style.opacity = 0;
   hideResultsCard();
+  if (finished) {
+    finished = false;
+    window.addEventListener("keypress", keyHandler);
+    window.addEventListener("keydown", backAndCapsHandler);
+    checkingInterval = setInterval(checkSpeedAndAccuracy, 500);
+  }
 });
 
 refetchBtn.addEventListener("click", function () {
@@ -121,6 +128,7 @@ function type(key) {
     }
   }
   if (typedLen + 1 >= quoteContent.length) {
+    finished = true;
     window.removeEventListener("keypress", keyHandler);
     window.removeEventListener("keydown", backAndCapsHandler);
     clearInterval(checkingInterval);
